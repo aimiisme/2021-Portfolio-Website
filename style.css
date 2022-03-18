@@ -410,6 +410,10 @@ nav {
   .column-right p {
     width: 100%;
   }
+  .projects .item {
+    flex-direction: column;
+    height: auto;
+  }
 }
 @keyframes navSlide {
   from {
