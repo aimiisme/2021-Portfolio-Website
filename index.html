@@ -44,39 +44,40 @@
     </div>
     <!--Social Media Button End-->
 
-    <!--Nav Bar Start-->
-    <nav>
-      <div class="logo">
-        <a href="#">a</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-      <!--toggle bar-->
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <!--Navigation bar END-->
     <!--Body border for the whole page-->
     <div class="container">
+      <!--Nav Bar Start-->
+      <nav>
+        <a class="logo" href="#home">a</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <!--toggle bar-->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <!--Navigation bar END-->
       <!-------------------Hero section--------------------------->
-      <div class="hero-section">
+      <div id="home" class="hero-section">
         <div class="hero-content">
           <h1>a</h1>
           <h2>imi Tran</h2>
-          <div class="typing-info">A frontend developer.</div>
-          <div class="arrow"></div>
+          <div class="typing-info">i'm a frontend developer.</div>
+          <a href="#about">
+            <div class="arrow"></div>
+          </a>
         </div>
       </div>
-      <!--------About Me Start---------------->
-      <div class="main-content">
+      <!--------About Me Section---------------->
+
+      <section id="about" class="main-content">
+        <h2 class="section-heading">about me</h2>
         <div class="main-content-wrapper">
           <div class="column-left">
             <img src="img/smile2.PNG " alt="avatar-memoji" />
@@ -87,46 +88,62 @@
               I'm currently a Sophomore at
               <em>Kennesaw State University</em>, pursuing the B.S degree in
               Computer Science. My objective upon graduation is to become a
-              Front-End Developer. My interest in Web Development started back
-              in 2020 when I decided to try editing custom Tumblr themes with
-              HTML & CSS!
+              successful Front-End Developer. My interest in Web Development
+              started back in 2020 when I first created a website with HTML &
+              CSS and opened it in the browser, a whole new world of
+              possibilities appeared before my eyes!
             </p>
-            <a href="#" class="btn">Download CV</a>
+            <a href="document/MyResume.pdf" download="MyResume.pdf" class="btn"
+              >Download CV</a
+            >
           </div>
         </div>
-      </div>
+      </section>
       <!-------------About Me End------------------>
 
       <!-------------Skill section start----------------->
-      <section class="skills">
-        <h2 class="section-heading">development skill</h2>
+      <section id="skills" class="skills">
+        <h2 class="section-heading">development skills</h2>
         <div class="container-skill">
           <div class="card">
             <i class="fa-brands fa-html5 fa-5x"></i>
             <div class="card-content">
               <h3>html5</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Modern, semantic and accessible HTML5.</p>
             </div>
           </div>
           <div class="card">
             <i class="fa-brands fa-css3-alt fa-5x"></i>
             <div class="card-content">
               <h3>css3</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Modern CSS3, including flex-box, CSS grid, CSS animations,
+                responsive design.
+              </p>
             </div>
           </div>
           <div class="card">
             <i class="fa-brands fa-js-square fa-5x"></i>
             <div class="card-content">
               <h3>javascript</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Functional programming and cross browser code.</p>
             </div>
           </div>
           <div class="card">
             <i class="fa-brands fa-java fa-5x"></i>
             <div class="card-content">
               <h3>java</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Object-oriented programming, GUI and JavaFX.</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-git-alt fa-5x"></i>
+            <div class="card-content">
+              <h3>git</h3>
+              <p>
+                Use version control system to track, regulate, and revise code
+                changes.
+              </p>
             </div>
           </div>
         </div>
@@ -148,8 +165,8 @@
       </section>
 
       <!----------------Recent Work Start----------------------->
-      <section class="projects">
-        <h2 class="section-heading">Projects</h2>
+      <section id="projects" class="projects">
+        <h2 class="section-heading">My Projects</h2>
         <div class="all-items">
           <!-------------Item 1--------------->
           <div class="item">
@@ -162,9 +179,7 @@
             </div>
             <div class="right">
               <h2>Weather App</h2>
-              <div class="detail-button">
-                <a href="#">Details</a>
-              </div>
+              <div class="detail-button"></div>
               <h3>CSS, React, JQuery, JSON</h3>
               <p>
                 Designed and developed a user-friendly Weather App for user to
@@ -186,16 +201,12 @@
             </div>
             <div class="right">
               <h2>Personal Website</h2>
-              <div class="detail-button">
-                <a href="#">Details</a>
-              </div>
+              <div class="detail-button"></div>
               <h3>HTML5, CSS3, Javascript</h3>
               <p>
-                Responsive website using HTML5, CSS3, JavaScript. Support users
-                with differently sized viewports such as desktops, laptops,
-                tablets, and phones of all sizes in a single codebase. Apply UI
-                trend “Glassmorphism” aims to create the illusion of a
-                glass-like panel floating over a background. This style is
+                Responsive portfolio website using HTML5, CSS3, JavaScript.
+                Applied UI trend “Glassmorphism” aims to create the illusion of
+                a glass-like panel floating over a background. This style is
                 heavily influenced by Apple Mac OS Big Sur in 2020.
               </p>
             </div>
