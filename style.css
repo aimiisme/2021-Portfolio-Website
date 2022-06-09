@@ -3,14 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 /*--------Variables-----*/
 :root {
-  --main-color: #e02f6b;
-  --blue: #0000ff;
-  --blue-dark: #18293c;
-  --orange: #ffa500;
-  --green-yellow: #cddc39;
   --pink-light: #efa2b4;
   --cyan-light: #aef1ee;
-  --white: #fff;
   --white-alpha-40: rgba(255, 255, 255, 0.4);
   --white-alpha-25: rgba(255, 255, 255, 0.25);
 }
